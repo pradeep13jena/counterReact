@@ -1,0 +1,32 @@
+.exe{
+  text-align: center;
+  margin: 2em;
+}
+
+#buttons{
+  display: flex;
+  gap: 10px;
+}
+
+#buttons button{
+  padding: 13px;
+  font-size: 18px;
+  border-radius: 8px;
+  background-color:chartreuse;
+  transition: all .2s;
+  cursor: pointer;
+}
+
+#buttons button:active{
+  padding: 13px;
+  font-size: 18px;
+  border-radius: 8px;
+  background-color:chocolate;
+}
+
+.center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
